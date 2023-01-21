@@ -1,6 +1,7 @@
 This competition predicted customers' 45-day payments based on their first seven days of game play. The dataset has approximate 2.3 million samples and 107 features.
 
 Data Link: https://www.dropbox.com/sh/7jc7cxojntdd95c/AAByxEvaURHdfAVcaqUji5b-a?dl=0
+
 Competition Link: https://js.dclab.run/v2/cmptDetail.html?id=226
 ## Background
 
