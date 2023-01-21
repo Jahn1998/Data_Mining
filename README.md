@@ -1,7 +1,7 @@
 This competition predicted customers' 45-day payments based on their first seven days of game play. The dataset has approximate 2.3 million samples and 107 features.
 
 Data Link: https://www.dropbox.com/sh/7jc7cxojntdd95c/AAByxEvaURHdfAVcaqUji5b-a?dl=0
-
+Competition Link: https://js.dclab.run/v2/cmptDetail.html?id=226
 ## Background
 
 The player in *Age of Savagery* is given a piece of land and is prompted by the game's storyline to build a complex of buildings somewhere in the land to form their 'inner city' to satisfy the needs of the game's storyline. *Age of Savagery* entails fighting for land, establishing cities and fortresses.
