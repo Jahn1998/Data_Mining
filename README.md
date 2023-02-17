@@ -20,7 +20,8 @@ This competition predicted customers' 45-day payments based on their first seven
 
 ### The Data
 
-![Screen Shot 2023-01-21 at 17.31.07.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/3fb9ee46-2059-4bf7-9af9-644894667c7e/Screen_Shot_2023-01-21_at_17.31.07.png)
+![data_overview](https://github.com/Jahn1998/Data_Mining/blob/main/Imgs/data_overview.png)
+
 
 All **resource acquisition/consumption**, **manpower recruitment/loss**/... , **accelerated quantity**, **research**, **building**, **PVP, PVE, online time, amount paid, number of payments**, etc. are all characteristics of the users’ behaviours in the first 7 days of service.
 
@@ -34,14 +35,14 @@ All **resource acquisition/consumption**, **manpower recruitment/loss**/... , **
     
 2. **Label Imbalance**
     
-    ![Screen Shot 2023-01-21 at 17.46.00.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/7d5b8042-8cf6-4409-862c-669b03b16c1d/Screen_Shot_2023-01-21_at_17.46.00.png)
+    ![label_imbalance](https://github.com/Jahn1998/Data_Mining/blob/main/Imgs/label_imbalance.png)
     
     **Conclusion:** a significant issue with game conversion exists, and over 99% of customers do not pay.
     **Solution**: splitting the process into two steps, first classification and then regression. 
     
 3. **Features Imbalance**
     
-    ![Screen Shot 2023-01-21 at 17.33.25.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/b8c65af2-89b6-4668-b19c-aecb788ee534/Screen_Shot_2023-01-21_at_17.33.25.png)
+    ![features_imbalance](https://github.com/Jahn1998/Data_Mining/blob/main/Imgs/features_imbalance.png)
     
     **Conclusion:** The feature distribution shows that most features are heavily skewed to the left, with 75% of users not using many resources and a lot of players leaving the game.
     **Solution**: caps
@@ -64,7 +65,7 @@ The RMSE baseline was `62.00116183660681`
 - Players who continue to pay after 7 days pay more in the first 7 days
 - When the payment amount within 7 days larger than 6 CNY, players are more likely to continue paying than not to stop paying.
 
-![Screen Shot 2023-01-21 at 17.43.20.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/703d9d07-688b-4e87-ae39-4c67d572b3cc/Screen_Shot_2023-01-21_at_17.43.20.png)
+![The Probability to Continue to Pay](https://github.com/Jahn1998/Data_Mining/blob/main/Imgs/The%20Probability%20to%20Continue%20to%20Pay.png)
 
 ### **Data Analysis**
 
@@ -76,11 +77,12 @@ The RMSE baseline was `62.00116183660681`
 - Those who spend *above 800 minutes* each week online are of low value (at the payment level)
 - Those who spend *less than 15 minutes* each week online are of low value (at the payment level)
 
-![Screen Shot 2023-01-21 at 17.54.44.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/4a31e54e-56c8-44b2-ace0-09f884f2a765/Screen_Shot_2023-01-21_at_17.54.44.png)
+![time_spent](https://github.com/Jahn1998/Data_Mining/blob/main/Imgs/time_spent.png)
 
 **Distribution and Skewness**
 
 "low retention rate" is the cause and "Resources Distribution Anomaly" is the result
+![data distribution](https://github.com/Jahn1998/Data_Mining/blob/main/Imgs/data%20distribution.png)
 
 **Outliers**
 
